@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <h2>Age calculator</h2>
+        <div class="datetime-picker">
+            <span>Choose your birth date</span>
+            <input type="date" id="datePicker">
+            <span id="ChooseDate">Oct 22,1999</span>
+        </div>
+        <div class="age-calc expand">
+            <div class="age-box">
+                <p class="header">Years</p>
+                <p class="value" id="years">9</p>
+            </div>
+             <div class="age-box">
+                <p class="header">Months</p>
+                <p class="value" id="months">119</p>
+            </div>
+             <div class="age-box">
+                <p class="header">Days</p>
+                <p class="value" id="days">3648</p>
+            </div>
+            <div class="age-box">
+                <p class="header">Hours</p>
+                <p class="value" id="hours">87552</p>
+            </div>
+            <div class="age-box">
+                <p class="header">Seconds</p>
+                <p class="value" id="seconds">5253120</p>
+            </div>
+             <div class="age-box">
+                <p class="header">weeks</p>
+                <p class="value" id="milliseconds">521</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="age.js"></script>
+</body>
+</html>
